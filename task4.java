@@ -41,7 +41,7 @@ class QuizApplication {
             }
         };
 
-        timer.schedule(task, 10000); // 10 seconds to answer
+        timer.schedule(task, 10000); 
 
         String userAnswer = "";
         if (!timeOut) {
